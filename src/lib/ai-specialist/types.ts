@@ -197,8 +197,8 @@ export interface AutonomousRunResult {
   conflicts: DetectedConflict[];
   duplicates: DuplicatePair[];
   chunks: KnowledgeChunk[];
+  cleanedRows?: Record<string, string>[];
   selfTestResults: RagSelfTestQuestion[];
-  cleanedRows: Record<string, string>[];
   rawSourcePreserved: boolean;
   auditTrailSummary: string;
 }
