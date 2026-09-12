@@ -1,0 +1,16 @@
+﻿Student_ID,Student_Name,Grade,Parent_Name,Parent_Email,Parent_Phone,Date_Of_Birth,Tuition_Fee,Status
+STU-201,  EMILY WATSON  ,Grade 10,ROBERT WATSON,robert.watson@gmail.com,(555) 321-4567,05/14/2010,$1200.00,enrolled
+STU-202,lUcas gARCIA,10th,MARIA GARCIA,  maria.garcia@outlook.com  ,555.432.5678,2010-09-22,1200,ENROLLED
+STU-203,LIAM JOHNSON,Grade 9,DAVID JOHNSON,david.j@yahoo.com,5555436789,03-12-2011,$ 850.50,pending
+STU-204,sophia CHEN,9th,WEI CHEN,wei.chen@techcorp.io,555-654-7890,2011/11/05,$850.00,enrolled
+STU-205,EMILY WATSON,10th Grade,ROBERT WATSON,robert.watson@gmail.com,(555) 321-4567,05/14/2010,$1200.00,ENROLLED
+STU-206,noah WILLIAMS,Grade 11,SARAH WILLIAMS,sarah.w@gmail.com,+1 (555) 765-8901,2009-07-18,1500,active
+STU-207,test bot student,10th,fake parent,asdf@test.com,000-000-0000,01/01/2000,$0.00,cancelled
+STU-208,  OLIVIA BROWN  ,Grade 10,MICHAEL BROWN,m.brown@corporate.net,555-876-9012,08/30/2010,$1,200.00,Enrolled
+STU-209,ethan DAVIS,11th Grade,JENNIFER DAVIS,davis.family@gmail.com,(555)987-0123,2009-02-14,1500.00,pending
+STU-210,LIAM JOHNSON,Grade 9,DAVID JOHNSON,david.j@yahoo.com,555-543-6789,03/12/2011,850.50,enrolled
+STU-211,MIA RODRIGUEZ,12th,CARLOS RODRIGUEZ,carlos@rodriguez-law.com,555-098-1234,04-19-2008,$1,800.00,ENROLLED
+STU-212,james WILSON,Grade 12,PATRICIA WILSON,p.wilson@schoolboard.org,555.210.9876,2008-10-10,1800,enrolled
+STU-213,AVA MARTINEZ,10th,LUIS MARTINEZ,luis.martinez@gmail.com,(555) 432-1098,06/25/2010,$1,200.00,Active
+STU-214,sophia CHEN,Grade 9,WEI CHEN,wei.chen@techcorp.io,555-654-7890,2011-11-05,$850.00,ENROLLED
+STU-215,spam account,99th,test tester,test@schooltest.edu,1234567890,2020-01-01,$0.00,withdrawn
