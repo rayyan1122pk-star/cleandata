@@ -77,10 +77,10 @@ export function runAutonomousRagSelfTest(
     const queryTokens = qLower.split(/\s+/).filter((t) => t.length > 3);
 
     // Score chunks via keyword matching + entity presence
-    let bestChunk: KnowledgeChunk | null = null;
+    let bestChunk: any = null;
     let highestScore = 0;
 
-    safeChunks.forEach((chunk) => {
+    for (const chunk of safeChunks) {
       const textLower = chunk.text.toLowerCase();
       let matchCount = 0;
       queryTokens.forEach((token) => {
@@ -96,7 +96,7 @@ export function runAutonomousRagSelfTest(
         highestScore = score;
         bestChunk = chunk;
       }
-    });
+    }
 
     const isConflictTopic = safeConflicts.some((c) =>
       c.topic.toLowerCase().includes(q.targetTopic.toLowerCase())

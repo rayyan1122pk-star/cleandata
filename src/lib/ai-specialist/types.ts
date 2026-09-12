@@ -198,6 +198,7 @@ export interface AutonomousRunResult {
   duplicates: DuplicatePair[];
   chunks: KnowledgeChunk[];
   selfTestResults: RagSelfTestQuestion[];
+  cleanedRows: Record<string, string>[];
   rawSourcePreserved: boolean;
   auditTrailSummary: string;
 }

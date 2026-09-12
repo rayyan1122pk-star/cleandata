@@ -74,6 +74,7 @@ export function runAutonomousAiDataSpecialist(
     duplicates: cleanResult.duplicates,
     chunks: knowledgeResult.chunks,
     selfTestResults: selfTestResult.testResults,
+    cleanedRows: cleanResult.cleanedRows,
     rawSourcePreserved: true,
     auditTrailSummary: `Run ${runId}: Ingested ${rows.length} records -> Profiled -> Cleaned (${cleanResult.fixedCount} auto-fixes) -> Extracted ${cleanResult.entities.length} entities -> Engineered ${knowledgeResult.chunks.length} RAG chunks -> Validated via ${selfTestResult.testResults.length} self-test queries -> Readiness: ${finalScore}% in ${executionTimeMs}ms.`,
   };
